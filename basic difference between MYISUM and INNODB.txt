@@ -1,0 +1,13 @@
+MYISAM:
+1. MYISAM supports Table-level Locking
+2. MyISAM designed for need of speed
+3. MyISAM does not support foreign keys hence we call MySQL with MYISAM is DBMS
+4. MyISAM stores its tables, data and indexes in diskspace using separate three different files. (tablename.FRM, tablename.MYD, tablename.MYI)
+5. MYISAM not supports transaction. You cannot commit and rollback with MYISAM. Once you issue a command it’s done.
+
+INNODB:
+1. InnoDB supports Row-level Locking
+2. InnoDB designed for maximum performance when processing high volume of data
+3. InnoDB support foreign keys hence we call MySQL with InnoDB is RDBMS
+4. InnoDB stores its tables and indexes in a tablespace
+5. InnoDB supports transaction. You can commit and rollback with InnoDB
